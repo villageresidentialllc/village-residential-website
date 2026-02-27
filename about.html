@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Village Residential</title>
+  <meta name="description" content="Learn about Village Residential LLC — a woman-owned general contracting company founded in Raleigh, NC in 2023 with over a decade of construction experience." />
+  <link rel="canonical" href="https://villageresidential.co/about.html" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav>
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">Village <span>Residential</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleNav()">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section class="page-hero">
+    <div class="container">
+      <p class="hero-eyebrow">Our Story</p>
+      <h1>About Village Residential</h1>
+      <p>A woman-owned general contracting company with roots in Raleigh and over a decade of experience behind it.</p>
+    </div>
+  </section>
+
+  <!-- ===== STORY ===== -->
+  <section class="about-story">
+    <div class="container">
+      <div class="about-story-inner">
+
+        <h2>Where It Started</h2>
+        <p>Village Residential was founded in 2023 by Megan Marten — but the work started long before that. With over a decade in the construction industry since 2013, Megan has seen what it takes to transform a home: the planning, the trades, the problem-solving, and the people.</p>
+        <p>After years working in the industry, she founded Village Residential to build something of her own — a company with the values, standards, and mission she believed in. A company that treats every project as if it were her own home.</p>
+
+        <h2>The Name</h2>
+        <p>The name "Village" is intentional. A home is more than four walls — it's where a family's village begins. It's where kids grow up, where neighbors become friends, where lives are built. We take that seriously.</p>
+        <p>We also believe in the village of a neighborhood. When a home is transformed into something beautiful and safe, the whole street benefits. That ripple effect is what drives us.</p>
+
+        <h2>What We Do</h2>
+        <p>Village Residential specializes in heavy, full remodels of older homes — the kind of projects that require real expertise, not a coat of paint. We also take on residential flips and new construction, with a focus on the fast-growing Raleigh, NC metro area.</p>
+        <p>We hold a North Carolina General Contractor's license and carry full insurance. Every project is done to code, with quality trades and clear communication throughout.</p>
+
+        <h2>Our Mission</h2>
+        <p>To give families homes they are proud of — safe, comfortable, modern, and beautiful. Village Residential is a founder-funded, woman-owned company built on personal investment and a deep belief that quality construction makes communities better.</p>
+        <p>We're growing — and that same drive and accountability shows up in every project we take on.</p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VALUES ===== -->
+  <section style="background: var(--light-grey);">
+    <div class="container">
+      <p class="section-label">What We Stand For</p>
+      <h2 class="section-title">Our Values</h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <h3>Quality First</h3>
+          <p>We don't cut corners. Every decision on a project — from framing to finish — is made with long-term quality in mind.</p>
+        </div>
+        <div class="value-card">
+          <h3>Transparency</h3>
+          <p>Clear scopes, honest timelines, and real communication. No surprises — or at least, no avoidable ones.</p>
+        </div>
+        <div class="value-card">
+          <h3>Community</h3>
+          <p>We invest in Raleigh's established neighborhoods because we believe great homes make great communities.</p>
+        </div>
+        <div class="value-card">
+          <h3>Accountability</h3>
+          <p>We stand behind our work. Licensed, insured, and committed to doing things right — the first time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Let's Build Something Together</h2>
+      <p>Whether you're an investor, homeowner, lender, or partner — we'd love to hear from you.</p>
+      <a href="contact.html" class="btn btn-outline-white">Get In Touch</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">Village <span>Residential</span></a>
+          <p>A woman-owned general contracting company serving the greater Raleigh, NC area.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+19194382378">(919) 438-2378</a></li>
+            <li>Raleigh, NC</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2023&ndash;<script>document.write(new Date().getFullYear())</script> Village Residential LLC. All rights reserved.</span>
+        <span>NC General Contractor &middot; Woman-Owned</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>
